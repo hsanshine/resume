@@ -1,0 +1,141 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+span {
+  text-decoration: underline;
+}
+
+a {
+  color: #11999E;
+}
+
+h1 {
+  color: #66BFBF;
+  /*line-height: 2;*/
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 4%;
+  border: 10px dotted;
+  border-style: none none dotted;
+  color: grey
+}
+
+.code-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.electrical-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.skill-row {
+  text-align: left;
+  line-height: 2;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  /*height: 100vh;*/
+  position: relative;
+  /*so that it can influence the absolute position of its
+  contents */
+  padding-top: 100px;
+}
+
+.my-story {
+  color: #40514E
+}
+
+.middle-container {
+  margin-bottom: 40px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  margin-bottom: 0;
+  padding: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  top: 400px;
+}
+
+.final-word {
+  color: #11999E;
+}
+
+.btn {
+  background-color: #66BFBF;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Verdana', sans-serif;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.footer-link {
+  color:#11999E;
+  display: inline;
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.last-line {
+  color: #EAF6F6;
+  font-size: 1em;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+#intro-word {
+  font-weight: normal;
+}
+#copyright{
+  padding:20px;
+  text-decoration: none;
+}
+#my-signiture{
+  padding:20px;
+  text-decoration:none;
+}
